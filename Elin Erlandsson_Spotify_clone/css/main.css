@@ -1,0 +1,29 @@
+:root{
+    --primary-color:#fff;
+    --secondary-color:#1ED760;
+    --third-color:#919496;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Circular Bold';
+    background: #000;
+    color: var(--primary-color);
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);;
+}
+
+ul{
+    list-style: none;
+}

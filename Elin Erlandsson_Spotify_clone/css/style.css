@@ -1,0 +1,238 @@
+@font-face{
+    font-family: 'Circular Regualar';
+    src: url(../font/Circular\ Std\ Book.ttf);
+}
+@font-face{
+    font-family: 'Circular Bold';
+    src: url(../font/Circular\ Std\ Black.ttf);
+}
+
+.main-header{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+/* Top header */
+
+.top-navbar{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    margin: 0px auto; 
+    background-color: #000;
+}
+
+.navigation{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10%;
+    padding: 20px 0 15px 0;
+
+}
+.main-logo{
+    width: 130px;
+    fill: var(--primary-color);
+
+}
+.navbar{
+    display: flex;
+}
+
+.nav-items{
+    margin-left: 35px;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+
+.nav-items-links:hover{
+    color: var(--secondary-color);
+}
+
+.nav-items-separator{
+    border-left: 1px solid var(--primary-color) ;
+    margin-left:35px;
+}
+
+.nav-items-links-secondary{
+    color: #d9dadc;
+}
+
+.nav-items-links-secondary:hover{
+    color: var(--secondary-color);
+}
+
+/* Hero shocase */
+
+.hero-showcase{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #2d46b9;
+    background-image: url('https://www.scdn.co/i/home/lieVariants/bursts.svg');
+    background-repeat: no-repeat;
+    background-size: 175%;
+    background-position: 46% 13%;
+}
+
+.main-text-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--secondary-color);
+    margin-top: 100px;
+}
+
+.hero-heading {
+    font-size: 156px;
+    font-family: 'Circular Bold';
+    letter-spacing: -5px;
+    font-weight: bold;
+    line-height: 166px;
+}
+
+.hero-heading-bit{
+    font-family: 'Circular Bold';
+    display: block;
+    padding-left: 280px;
+    letter-spacing: -5px;  
+}
+
+.hero-text{
+    font-size: 18px;
+    margin: 40px 0;
+}
+
+/* Utiliti */
+
+.hero-btn{
+    padding: 16px 40px 16px;
+    color: #2940a8;
+    background-color: var(--secondary-color);
+    font-size: 14px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 500px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+.hero-btn:hover{
+    background-color: var(--primary-color);  
+}
+
+/* footer */
+
+.footer-container{
+    margin: 150px 10% 20px;
+}
+
+.footer-top{
+    display: flex;  
+    justify-content: space-between;
+}
+
+.bottom-logo{
+    width: 130px;
+    fill: var(--primary-color);
+    margin-right: 50px;
+}
+
+.footer-nav{
+    flex: 1;
+    margin: 20px 0 40px 0;
+}
+
+.footer-title{
+    color: var(--third-color);
+    font-size: 12px;
+    letter-spacing: .08em;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-items{
+    font-family: 'Circular Regualar' ;
+    margin-bottom: 20px;
+}
+
+.footer-items-links:hover{
+    color: var(--secondary-color);
+}
+
+.social-media-items{
+display: flex;
+margin-top: 20px;
+}
+
+.social-media-link{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    border-radius: 500px;
+    background-color: #222326;;
+}
+
+.icon{
+    font-size: 23px;
+}
+
+.icon:hover{
+    color: var(--secondary-color);
+}
+
+.footer-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: 'Circular Regualar';
+    margin-bottom: 60px;
+}
+
+.footer-bottom-left{
+    display: flex;
+    align-items: flex-end;
+}
+ 
+.footer-bottom-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.info-items{
+    margin-right: 20px;
+}    
+
+.info-links{
+    color: var(--third-color);
+}
+
+.info-links:hover{
+    color: var(--secondary-color);
+}
+
+.swe-flag{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.right-info-items{
+    margin-top: 10px;
+    color: var(--third-color);
+}
